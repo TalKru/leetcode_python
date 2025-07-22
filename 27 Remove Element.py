@@ -60,3 +60,10 @@ class Solution:
 
         return write_index
 
+if __name__ == "__main__":
+    nums = [0, 1, 2, 2, 3, 0, 4, 2]
+    print(f"original arr ::::::::{nums}")
+    sol = Solution()
+    index = sol.removeElement(nums, 2)
+    print(f"index of last cell: {index}")
+    print(f"after values removed {nums}")
